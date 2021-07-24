@@ -25,6 +25,7 @@ module sipotb();
       $dumpfile("sipotb.vcd");
       $dumpvars(0,sipotb);
       #100 $finish;
+      //
     end
   
 endmodule
