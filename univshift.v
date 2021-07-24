@@ -2,7 +2,6 @@ module univshift(in,cnt,clk,rst,q);
   input clk,rst;
   input [3:0]in;
   input [1:0]cnt;
-  
   output reg [3:0]q;
   
   always @(posedge clk,posedge rst)
